@@ -8,7 +8,7 @@
 
 module lab2_ac #(
     parameter MUX_W   = 15,
-    parameter MUX_MAX = 23999,
+    parameter MUX_MAX = 24000,
     parameter SCAN_W0 = 23,
     parameter SCAN_W1 = 24,
     parameter SCAN_M0 = 6000000
