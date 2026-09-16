@@ -9,7 +9,7 @@
 module scan_gen #(
     parameter W0 = 23,
     parameter W1 = 24,
-    parameter M0 = 5999999
+    parameter M0 = 6000000
 ) (
     input  logic clk,
     input  logic reset,
