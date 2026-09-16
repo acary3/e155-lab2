@@ -11,7 +11,7 @@ module lab2_ac #(
     parameter MUX_MAX = 23999,
     parameter SCAN_W0 = 23,
     parameter SCAN_W1 = 24,
-    parameter SCAN_M0 = 5999999
+    parameter SCAN_M0 = 6000000
 ) (
     input  logic reset,
     input  logic [3:0] sw0,
