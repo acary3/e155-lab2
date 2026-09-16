@@ -14,8 +14,7 @@ module HSOSC #(parameter CLKHF_DIV = "0b00") (
 endmodule
 
 // tb_lab2_ac.sv
-// Automatic testbench for lab2_ac. Small counter parameters are used so
-// the multiplexing toggles quickly in simulation.
+// Automatic testbench for lab2_ac
 
 module tb_lab2_ac();
 
