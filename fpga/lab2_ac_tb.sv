@@ -35,7 +35,7 @@ module tb_lab2_ac();
 
     initial begin
         reset = 1; sw0 = 4'h5; sw1 = 4'hA; col = 4'hF;
-        #200; // let HSOSC start up and hold reset a while
+        #200; 
         @(posedge dut.clk);
         reset = 0;
 
